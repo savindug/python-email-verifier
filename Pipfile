@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 flask = "*"
 py3-validate-email = "*"
+gunicorn = "*"
 
 [dev-packages]
 
