@@ -25,4 +25,5 @@ def get_verify_email():
                     'results': res})
 
 
-app.run()
+if __name__ == '__main__':
+      app.run(port=4300)
